@@ -73,7 +73,7 @@ The codebase is structured as follows:
 
 ## Installation
 
-´´´bash
+´´´
 git clone https://github.com/palominohernandez/ExploRL25.git
 cd dynamicalmpo
 conda env create -f environment.yml
@@ -168,5 +168,5 @@ python main.py --mode reinforce \
 
 ## Cite this work
 
-TBD
+Preprint available at [ChemRxiv](https://chemrxiv.org/doi/10.26434/chemrxiv-2025-pmnmb)
 

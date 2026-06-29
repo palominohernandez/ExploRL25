@@ -47,7 +47,7 @@ The code is built to be modular, allowing you to plug in your own objective and 
 
 The codebase is structured as follows:
 
-´´´
+```
 ├── config/         # Contains structural alerts and optional configs
 ├── data/           # Processed data used for pre-training of the Basemodel
 ├── dynamicslmpo/   # Codebase
@@ -69,16 +69,16 @@ The codebase is structured as follows:
 ├── vocabulary/     # Vocabulary for Basemodel
 ├── environment.yml # Dependency list
 └── README.md
-´´´
+```
 
 ## Installation
 
-´´´
+```bash
 git clone https://github.com/palominohernandez/ExploRL25.git
 cd dynamicalmpo
 conda env create -f environment.yml
 conda activate dynamicalmpo
-´´´
+```
 
 
 ## Usage 
